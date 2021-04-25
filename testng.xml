@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM  "http://testng.org/testng-1.0.dtd">
+<suite name = "SAMPLE TEST suite">
+
+    <listeners>
+        <listener class-name="main.java.utils.SuiteListener"></listener>
+    </listeners>
+
+    <test name = "Test Automation">
+
+        <parameter name = "browserName" value="firefox" />
+
+        <classes>
+            <class name="test.java.SampleTest"></class>
+        </classes>
+
+    </test>
+
+</suite>
